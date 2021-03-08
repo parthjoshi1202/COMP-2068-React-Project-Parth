@@ -33,7 +33,7 @@ const AboutDescription=() => {
 
         <p>The second functionality is isolate based on a certain category. After clicking the "Isolate data based on "Measurement" Category", the table will only show data which has category of measurement (number, distance, time, weight). Reload the Page to reset the Data. Source: <a href="https://public-apis.io/vedic-society-api">https://public-apis.io/vedic-society-api</a>,  <a href="https://aninditabasu.github.io/indica/html/vs.html">https://aninditabasu.github.io/indica/html/vs.html</a>. 
         
-        Endpoint: <a href="https://api-vs.herokuapp.com/vs/v1/resources/all">https://api-vs.herokuapp.com/vs/v1/resoucres/all</a>
+        Endpoint: <a href="https://parthjoshi1202.github.io/VedicAPI.json/data.json">https://parthjoshi1202.github.io/VedicAPI.json/data.json</a>
         </p>
 
         <p>See Data Page for the data loading and interact with it !</p>
