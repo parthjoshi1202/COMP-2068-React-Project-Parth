@@ -12,10 +12,10 @@ const Data  = () => {
 
   const resources = useMemo(() => data, [data]);
   
-  const endPoint= '/all';
+  const endPoint= 'https://parthjoshi1202.github.io/VedicAPI.json/data.json';
 
   useEffect(() => {
-    axios.get(endPoint) // '/all'
+    axios.get(endPoint)
     .then(resp => {
       setData(resp.data);
     });
