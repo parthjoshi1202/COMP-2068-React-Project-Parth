@@ -12,8 +12,10 @@ const Data  = () => {
 
   const resources = useMemo(() => data, [data]);
   
+  const endPoint= '/all';
+
   useEffect(() => {
-    axios.get('/all')
+    axios.get(endPoint) // '/all'
     .then(resp => {
       setData(resp.data);
     });
@@ -21,7 +23,7 @@ const Data  = () => {
 
 
   const search = event => {
-    axios.get('/all').then(resp=> {
+    axios.get(endPoint).then(resp=> {
       event.persist();
       const value = event.target.value;
      
@@ -37,7 +39,7 @@ const Data  = () => {
 
 
    const category = event => {
-    axios.get('/all').then(resp=> {
+    axios.get(endPoint).then(resp=> {
       event.persist();
       setData([...resp.data.filter(datum => (datum.category)==="number" || (datum.category)=== "distance" || (datum.category)=== "time" || (datum.category)==="weight")]);
       });
