@@ -1,3 +1,6 @@
+Created a React application that allows a user to interact with data stored in an API (JSON file format) by making API calls and displaying the data. The data is a description of all of the nouns in Vedic literature. The user can isolate and search the data.  Website: https://comp-2068-react-project-parth.netlify.app/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
